@@ -527,3 +527,7 @@ a:focus {
 .contact{
   color: rgb(0, 0, 0);
 }
+#whatsapp{
+  height: 50px;
+  padding-right: 15px;
+}
