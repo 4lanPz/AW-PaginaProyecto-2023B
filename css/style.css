@@ -9,7 +9,7 @@ body {
 }
 
 .layout_padding2 {
-  padding: 45px 0;
+  padding-bottom: 45px 0;
 }
 
 .layout_padding2-top {
@@ -441,6 +441,8 @@ a:focus {
 
 .map_section {
   position: relative;
+  background-color: #21d7ff;
+  z-index: 2;
 }
 
 .map_section #map {
@@ -452,7 +454,7 @@ a:focus {
 .map_section .form_container {
   position: relative;
   width: 50%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .map_section .form_container form {
@@ -477,7 +479,7 @@ a:focus {
 .map_section .form_container button {
   display: inline-block;
   padding: 12px 20px;
-  background-color: #ffffff;
+  background-color: #43e943;
   border: 1px solid #ffffff;
   color: #ffffff;
   border-radius: 30px;
@@ -520,4 +522,7 @@ a:focus {
   -webkit-text-stroke-color: black;
   font-family:"Poppins", sans-serif !important;
   font-weight: 700;
+}
+.contact{
+  color: white;
 }
