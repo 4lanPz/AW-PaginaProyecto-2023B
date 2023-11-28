@@ -441,7 +441,8 @@ a:focus {
 
 .map_section {
   position: relative;
-  background-color: #21d7ff;
+  background-image: url("/images/gato.jpg");
+  background-size: cover;
   z-index: 2;
 }
 
@@ -494,7 +495,7 @@ a:focus {
 
 .info_section {
   background-color: #0dc3ff;
-  height: 11rem;
+  height: 14rem;
   display: flex;
 }
 
@@ -524,5 +525,5 @@ a:focus {
   font-weight: 700;
 }
 .contact{
-  color: white;
+  color: rgb(0, 0, 0);
 }
